@@ -2,7 +2,7 @@
 
 An end-to-end credit risk model that predicts the probability a borrower will experience serious delinquency (90+ days past due) within 2 years, built on the ["Give Me Some Credit"](https://www.kaggle.com/c/GiveMeSomeCredit) Kaggle dataset.
 
-🔗 **[Live Demo](#)** *(add your Streamlit Cloud link here after deploying)*
+🔗 **[http://localhost:8501/]
 
 ---
 
@@ -89,7 +89,7 @@ Raw data (Kaggle CSV)
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/<your-username>/loan-risk-prediction.git
+git clone https://github.com/<anish-git-77>/loan-risk-prediction.git
 cd loan-risk-prediction
 python -m venv venv
 venv\Scripts\activate        # Windows
