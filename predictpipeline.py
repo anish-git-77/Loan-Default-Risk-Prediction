@@ -5,8 +5,8 @@ Takes raw applicant data (same schema as the original Kaggle dataset)
 and returns a risk decision, using the exact same preprocessing and
 feature engineering logic used during training -- avoiding train/serve skew.
 """
-
-import json
+ 
+import json  
 import numpy as np
 import pandas as pd
 import joblib
