@@ -55,11 +55,11 @@ def preprocess(df: pd.DataFrame) -> pd.DataFrame:
 
     # --- feature engineering (identical to training) ---
     df['TotalPastDue'] = (df['NumberOfTime30-59DaysPastDueNotWorse'] +
-                           df['NumberOfTime60-89DaysPastDueNotWorse'] +
+                           df['NumberOfTime60-89DaysPastDueNotWorse'] +  
                            df['NumberOfTimes90DaysLate'])
     df['HasAnyPastDue'] = (df['TotalPastDue'] > 0).astype(int)
     df['DebtToIncomeInteraction'] = df['DebtRatio'] * df['MonthlyIncome']
-    df['IncomePerDependent'] = df['MonthlyIncome'] / (df['NumberOfDependents'] + 1)
+    df['IncomePerDependent'] = df['MonthlyIncome'] / (df['NumberOfDependents'] + 1)  
     df['CreditLinesPerAge'] = df['NumberOfOpenCreditLinesAndLoans'] / df['age']
     df['UtilizationTimesLines'] = (df['RevolvingUtilizationOfUnsecuredLines'] *
                                     df['NumberOfOpenCreditLinesAndLoans'])
