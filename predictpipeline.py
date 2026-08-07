@@ -64,7 +64,7 @@ def preprocess(df: pd.DataFrame) -> pd.DataFrame:
     df['UtilizationTimesLines'] = (df['RevolvingUtilizationOfUnsecuredLines'] *
                                     df['NumberOfOpenCreditLinesAndLoans'])
     df['IsRetirementAge'] = (df['age'] >= 60).astype(int)
-
+  
     return df
 
   
