@@ -67,7 +67,7 @@ def preprocess(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
-
+  
 def predict_risk(applicant: dict) -> dict:
     """
     Takes a single applicant's raw data as a dict and returns a risk decision.
