@@ -48,7 +48,7 @@ Raw data (Kaggle CSV)
    ├─ Stratified 70/15/15 Train/Val/Test Split
    │
    ├─ Modeling (imbalance handled via class weights, not SMOTE)
-   │    • Logistic Regression  → 0.859 val ROC-AUC
+   │    • Logistic Regression  → 0.859 val ROC-AUC   
    │    • Random Forest        → 0.869 val ROC-AUC
    │    • XGBoost (final)      → 0.870 val ROC-AUC
    │
