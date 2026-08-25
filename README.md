@@ -20,10 +20,10 @@ Banks need to decide loan approvals *before* extending credit, using only applic
 | Business-optimal decision threshold | 0.71 (vs. naive 0.5) |
 
 ---
-
+    
 ## Problem
 
-- 150,000 loan applicants, 10 raw financial features
+- 150,000 loan applicants, 10 raw financial features   
 - Severe class imbalance: **93.3% non-default vs. 6.7% default**
 - Goal: rank applicants by risk, and set a decision threshold based on actual business cost, not accuracy
 
