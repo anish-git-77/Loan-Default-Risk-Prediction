@@ -1,4 +1,4 @@
-# 💳 Loan Default Risk Prediction
+# 💳 Loan Default Risk Prediction   
 
 An end-to-end credit risk model that predicts the probability a borrower will experience serious delinquency (90+ days past due) within 2 years, built on the ["Give Me Some Credit"](https://www.kaggle.com/c/GiveMeSomeCredit) Kaggle dataset.
 
