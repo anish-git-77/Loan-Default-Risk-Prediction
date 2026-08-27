@@ -6,7 +6,7 @@ and returns a risk decision, using the exact same preprocessing and
 feature engineering logic used during training -- avoiding train/serve skew.
 """
  
-import json  
+import json      
 import numpy as np
 import pandas as pd
 import joblib
@@ -18,7 +18,7 @@ with open('preprocessing_artifacts.json') as f:
 
 RAW_COLUMNS = [
     'RevolvingUtilizationOfUnsecuredLines', 'age',
-    'NumberOfTime30-59DaysPastDueNotWorse', 'DebtRatio', 'MonthlyIncome',
+    'NumberOfTime30-59DaysPastDueNotWorse', 'DebtRatio', 'MonthlyIncome ,
     'NumberOfOpenCreditLinesAndLoans', 'NumberOfTimes90DaysLate',
     'NumberRealEstateLoansOrLines', 'NumberOfTime60-89DaysPastDueNotWorse',
     'NumberOfDependents'
