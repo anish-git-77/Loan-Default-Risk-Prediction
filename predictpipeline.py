@@ -90,7 +90,7 @@ def predict_risk(applicant: dict) -> dict:
     df = preprocess(df)
 
     # Match exact column order the model was trained on
-    feature_cols = MODEL.get_booster().feature_names
+    feature_cols = MODEL.get_booster().feature_names     
     X = df[feature_cols]
 
     probability = MODEL.predict_proba(X)[0, 1]
