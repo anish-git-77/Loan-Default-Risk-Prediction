@@ -74,7 +74,7 @@ def predict_risk(applicant: dict) -> dict:
 
     Example input:
     {
-        'RevolvingUtilizationOfUnsecuredLines': 0.4,
+        'RevolvingUtilizationOfUnsecuredLines': 0.4,    
         'age': 35,
         'NumberOfTime30-59DaysPastDueNotWorse': 1,
         'DebtRatio': 0.3,
