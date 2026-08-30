@@ -120,9 +120,9 @@ applicant = {
     'NumberOfTime60-89DaysPastDueNotWorse': 0,
     'NumberOfDependents': 2
 }
-
+     
 result = predict_risk(applicant)
-print(result)
+print(result)  
 # {'probability_of_default': 0.14, 'threshold_used': 0.71, 'decision': 'LOW RISK - Approve'}
 ```
 
