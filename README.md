@@ -138,7 +138,7 @@ print(result)
 
 ---
 
-## Tech Stack
+## Tech Stack    
 
 `Python` · `pandas` · `scikit-learn` · `XGBoost` · `SHAP` · `Streamlit`
 
