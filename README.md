@@ -128,7 +128,7 @@ print(result)
 
 ---
 
-## Why These Design Choices
+## Why These Design Choices   
 
 - **Class weights over SMOTE** — avoids data leakage from generating synthetic points before the train/test split.
 - **Median imputation + missingness flags** — robust to skewed income/dependents data, while preserving the signal that *missingness itself* can carry.
