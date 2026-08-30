@@ -40,7 +40,7 @@ Raw data (Kaggle CSV)
    │    • median imputation + missingness flags for MonthlyIncome, NumberOfDependents
    │    • winsorized outliers (RevolvingUtilization, DebtRatio) at 99th percentile
    │
-   ├─ Feature Engineering (7 new features)
+   ├─ Feature Engineering (7 new features)    
    │    • TotalPastDue, HasAnyPastDue, DebtToIncomeInteraction,
    │      IncomePerDependent, CreditLinesPerAge, UtilizationTimesLines,
    │      IsRetirementAge
